@@ -41,6 +41,10 @@ struct ContentView: View {
                 }
             }
 
+            Section(header: Text("Licks")) {
+                Link("Pub Dev", destination: URL(string: "https://pub.dev/")!)
+            }
+
             Section(header: Text("Color Picker")) {
                 ColorPicker(selection: $color) {
                     Text("Pick Background Color")

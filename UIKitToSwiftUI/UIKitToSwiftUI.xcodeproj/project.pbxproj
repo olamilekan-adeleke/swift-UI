@@ -13,11 +13,19 @@
 		3920FD6A29B7C51300A7B407 /* WeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3920FD6929B7C51300A7B407 /* WeatherInfo.swift */; };
 		3920FD6C29B7C57A00A7B407 /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3920FD6B29B7C57A00A7B407 /* WeatherRow.swift */; };
 		3920FD6F29B8F27200A7B407 /* ListRowAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3920FD6E29B8F27200A7B407 /* ListRowAdd.swift */; };
+		3920FD7229B8F58000A7B407 /* ListViewDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3920FD7129B8F58000A7B407 /* ListViewDelete.swift */; };
+		3920FD7529B8F92300A7B407 /* ListRowEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3920FD7429B8F92300A7B407 /* ListRowEdit.swift */; };
+		3920FD7829B8FCB800A7B407 /* ListWithSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3920FD7729B8FCB800A7B407 /* ListWithSections.swift */; };
+		3920FD7C29B8FD7800A7B407 /* EditableListsFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3920FD7B29B8FD7800A7B407 /* EditableListsFields.swift */; };
 		3927B942299F289F0031FDD5 /* UIKitToSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3927B941299F289F0031FDD5 /* UIKitToSwiftUIApp.swift */; };
 		3927B944299F289F0031FDD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3927B943299F289F0031FDD5 /* ContentView.swift */; };
 		3927B946299F28A10031FDD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3927B945299F28A10031FDD5 /* Assets.xcassets */; };
 		3927B949299F28A10031FDD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3927B948299F28A10031FDD5 /* Preview Assets.xcassets */; };
 		3927B952299F29580031FDD5 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3927B951299F29580031FDD5 /* ActivityIndicator.swift */; };
+		397CB96C29CDB52D000D796D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397CB96B29CDB52D000D796D /* LoginView.swift */; };
+		39F1CEFD29CCA78200D68723 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F1CEFC29CCA78200D68723 /* SwiftUIView.swift */; };
+		39F1CF0029CCA9DD00D68723 /* LazyGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F1CEFF29CCA9DD00D68723 /* LazyGrid.swift */; };
+		39F1CF0329CCB09E00D68723 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F1CF0229CCB09E00D68723 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,12 +35,20 @@
 		3920FD6929B7C51300A7B407 /* WeatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInfo.swift; sourceTree = "<group>"; };
 		3920FD6B29B7C57A00A7B407 /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
 		3920FD6E29B8F27200A7B407 /* ListRowAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowAdd.swift; sourceTree = "<group>"; };
+		3920FD7129B8F58000A7B407 /* ListViewDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewDelete.swift; sourceTree = "<group>"; };
+		3920FD7429B8F92300A7B407 /* ListRowEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowEdit.swift; sourceTree = "<group>"; };
+		3920FD7729B8FCB800A7B407 /* ListWithSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWithSections.swift; sourceTree = "<group>"; };
+		3920FD7B29B8FD7800A7B407 /* EditableListsFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableListsFields.swift; sourceTree = "<group>"; };
 		3927B93E299F289F0031FDD5 /* UIKitToSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitToSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3927B941299F289F0031FDD5 /* UIKitToSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitToSwiftUIApp.swift; sourceTree = "<group>"; };
 		3927B943299F289F0031FDD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3927B945299F28A10031FDD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3927B948299F28A10031FDD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3927B951299F29580031FDD5 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		397CB96B29CDB52D000D796D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		39F1CEFC29CCA78200D68723 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		39F1CEFF29CCA9DD00D68723 /* LazyGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGrid.swift; sourceTree = "<group>"; };
+		39F1CF0229CCB09E00D68723 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +80,38 @@
 			path = llist_row_add;
 			sourceTree = "<group>";
 		};
+		3920FD7029B8F56600A7B407 /* list_row_delete */ = {
+			isa = PBXGroup;
+			children = (
+				3920FD7129B8F58000A7B407 /* ListViewDelete.swift */,
+			);
+			path = list_row_delete;
+			sourceTree = "<group>";
+		};
+		3920FD7329B8F90D00A7B407 /* list_row_edit */ = {
+			isa = PBXGroup;
+			children = (
+				3920FD7429B8F92300A7B407 /* ListRowEdit.swift */,
+			);
+			path = list_row_edit;
+			sourceTree = "<group>";
+		};
+		3920FD7629B8FC9800A7B407 /* ListSections */ = {
+			isa = PBXGroup;
+			children = (
+				3920FD7729B8FCB800A7B407 /* ListWithSections.swift */,
+			);
+			path = ListSections;
+			sourceTree = "<group>";
+		};
+		3920FD7A29B8FD6D00A7B407 /* EditableListsFields */ = {
+			isa = PBXGroup;
+			children = (
+				3920FD7B29B8FD7800A7B407 /* EditableListsFields.swift */,
+			);
+			path = EditableListsFields;
+			sourceTree = "<group>";
+		};
 		3927B935299F289F0031FDD5 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +132,14 @@
 		3927B940299F289F0031FDD5 /* UIKitToSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				397CB96A29CDB514000D796D /* LoginView */,
+				39F1CF0129CCB08D00D68723 /* SignUp */,
+				39F1CEFE29CCA9C900D68723 /* LazyGrid */,
+				39F1CEFB29CCA76600D68723 /* LazyStack */,
+				3920FD7A29B8FD6D00A7B407 /* EditableListsFields */,
+				3920FD7629B8FC9800A7B407 /* ListSections */,
+				3920FD7329B8F90D00A7B407 /* list_row_edit */,
+				3920FD7029B8F56600A7B407 /* list_row_delete */,
 				3920FD6D29B8F24F00A7B407 /* llist_row_add */,
 				3920FD6229B7B1AB00A7B407 /* WeScroll.swift */,
 				3927B941299F289F0031FDD5 /* UIKitToSwiftUIApp.swift */,
@@ -102,6 +158,38 @@
 				3927B948299F28A10031FDD5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		397CB96A29CDB514000D796D /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				397CB96B29CDB52D000D796D /* LoginView.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		39F1CEFB29CCA76600D68723 /* LazyStack */ = {
+			isa = PBXGroup;
+			children = (
+				39F1CEFC29CCA78200D68723 /* SwiftUIView.swift */,
+			);
+			path = LazyStack;
+			sourceTree = "<group>";
+		};
+		39F1CEFE29CCA9C900D68723 /* LazyGrid */ = {
+			isa = PBXGroup;
+			children = (
+				39F1CEFF29CCA9DD00D68723 /* LazyGrid.swift */,
+			);
+			path = LazyGrid;
+			sourceTree = "<group>";
+		};
+		39F1CF0129CCB08D00D68723 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				39F1CF0229CCB09E00D68723 /* SignUpView.swift */,
+			);
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,10 +267,18 @@
 				3920FD6329B7B1AC00A7B407 /* WeScroll.swift in Sources */,
 				3920FD6C29B7C57A00A7B407 /* WeatherRow.swift in Sources */,
 				3927B944299F289F0031FDD5 /* ContentView.swift in Sources */,
+				3920FD7C29B8FD7800A7B407 /* EditableListsFields.swift in Sources */,
 				3927B952299F29580031FDD5 /* ActivityIndicator.swift in Sources */,
 				3920FD6F29B8F27200A7B407 /* ListRowAdd.swift in Sources */,
+				39F1CEFD29CCA78200D68723 /* SwiftUIView.swift in Sources */,
+				3920FD7229B8F58000A7B407 /* ListViewDelete.swift in Sources */,
+				397CB96C29CDB52D000D796D /* LoginView.swift in Sources */,
+				39F1CF0029CCA9DD00D68723 /* LazyGrid.swift in Sources */,
 				3927B942299F289F0031FDD5 /* UIKitToSwiftUIApp.swift in Sources */,
+				39F1CF0329CCB09E00D68723 /* SignUpView.swift in Sources */,
+				3920FD7829B8FCB800A7B407 /* ListWithSections.swift in Sources */,
 				3920FD6729B7C49800A7B407 /* CustomRows.swift in Sources */,
+				3920FD7529B8F92300A7B407 /* ListRowEdit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

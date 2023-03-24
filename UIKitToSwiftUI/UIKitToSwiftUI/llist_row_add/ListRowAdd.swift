@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct ListRowAdd: View {
+    @State var number: [Int] = [1, 2, 3, 4]
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List {
+                ForEach(self.number, id: \.self) { number in
+                    Text("\(number)")
+                }
+            }
+            .navigationBarTitle("Number List", displayMode: .inline)
+            .navigationBarItems(trailing: Button("Add", action: self.addNumber))
+        }
+    }
+
+    private func addNumber() {
+        self.number.append(Int.random(in: 5 ..< 100))
     }
 }
 

@@ -11,14 +11,7 @@ struct ContentView: View {
     @State var animate: Bool = true
 
     var body: some View {
-        VStack {
-            ActivityIndicator(animating: animate)
-
-            HStack {
-                Toggle("Toggle Activity", isOn: $animate)
-            }
-        }
-        .padding()
+        SwiftUIView()
     }
 }
 

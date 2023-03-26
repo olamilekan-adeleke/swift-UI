@@ -23,6 +23,16 @@
 		3927B949299F28A10031FDD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3927B948299F28A10031FDD5 /* Preview Assets.xcassets */; };
 		3927B952299F29580031FDD5 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3927B951299F29580031FDD5 /* ActivityIndicator.swift */; };
 		397CB96C29CDB52D000D796D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397CB96B29CDB52D000D796D /* LoginView.swift */; };
+		398DF44729D03C6200E36B4F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DF44629D03C6200E36B4F /* HomeView.swift */; };
+		398DF44B29D03DCB00E36B4F /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DF44A29D03DCB00E36B4F /* Currency.swift */; };
+		398DF44D29D03E8B00E36B4F /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DF44C29D03E8B00E36B4F /* CurrencyView.swift */; };
+		398DF44F29D0428A00E36B4F /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DF44E29D0428A00E36B4F /* HomeTabView.swift */; };
+		398DF45229D055D000E36B4F /* PresentingAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DF45129D055D000E36B4F /* PresentingAlerts.swift */; };
+		398DF45429D056DE00E36B4F /* OldAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DF45329D056DE00E36B4F /* OldAlert.swift */; };
+		398DF45729D05B3B00E36B4F /* PresentingConfirmationDialogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DF45629D05B3B00E36B4F /* PresentingConfirmationDialogs.swift */; };
+		398DF45A29D05CEE00E36B4F /* PresentingSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DF45929D05CEE00E36B4F /* PresentingSheets.swift */; };
+		398DF45C29D05F2900E36B4F /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DF45B29D05F2900E36B4F /* SheetView.swift */; };
+		398DF45E29D0613400E36B4F /* SheetWithNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DF45D29D0613400E36B4F /* SheetWithNavView.swift */; };
 		39F1CEFD29CCA78200D68723 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F1CEFC29CCA78200D68723 /* SwiftUIView.swift */; };
 		39F1CF0029CCA9DD00D68723 /* LazyGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F1CEFF29CCA9DD00D68723 /* LazyGrid.swift */; };
 		39F1CF0329CCB09E00D68723 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F1CF0229CCB09E00D68723 /* SignUpView.swift */; };
@@ -46,6 +56,16 @@
 		3927B948299F28A10031FDD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3927B951299F29580031FDD5 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		397CB96B29CDB52D000D796D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		398DF44629D03C6200E36B4F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		398DF44A29D03DCB00E36B4F /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		398DF44C29D03E8B00E36B4F /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
+		398DF44E29D0428A00E36B4F /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		398DF45129D055D000E36B4F /* PresentingAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentingAlerts.swift; sourceTree = "<group>"; };
+		398DF45329D056DE00E36B4F /* OldAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldAlert.swift; sourceTree = "<group>"; };
+		398DF45629D05B3B00E36B4F /* PresentingConfirmationDialogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentingConfirmationDialogs.swift; sourceTree = "<group>"; };
+		398DF45929D05CEE00E36B4F /* PresentingSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentingSheets.swift; sourceTree = "<group>"; };
+		398DF45B29D05F2900E36B4F /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		398DF45D29D0613400E36B4F /* SheetWithNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetWithNavView.swift; sourceTree = "<group>"; };
 		39F1CEFC29CCA78200D68723 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		39F1CEFF29CCA9DD00D68723 /* LazyGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGrid.swift; sourceTree = "<group>"; };
 		39F1CF0229CCB09E00D68723 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
@@ -132,6 +152,10 @@
 		3927B940299F289F0031FDD5 /* UIKitToSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				398DF45829D05CE400E36B4F /* New Group */,
+				398DF45529D05B3000E36B4F /* PresentingConfirmationDialogs */,
+				398DF45029D0553000E36B4F /* PresentingAlerts */,
+				398DF44529D03C4B00E36B4F /* UsingTabViews */,
 				397CB96A29CDB514000D796D /* LoginView */,
 				39F1CF0129CCB08D00D68723 /* SignUp */,
 				39F1CEFE29CCA9C900D68723 /* LazyGrid */,
@@ -166,6 +190,44 @@
 				397CB96B29CDB52D000D796D /* LoginView.swift */,
 			);
 			path = LoginView;
+			sourceTree = "<group>";
+		};
+		398DF44529D03C4B00E36B4F /* UsingTabViews */ = {
+			isa = PBXGroup;
+			children = (
+				398DF44629D03C6200E36B4F /* HomeView.swift */,
+				398DF44A29D03DCB00E36B4F /* Currency.swift */,
+				398DF44C29D03E8B00E36B4F /* CurrencyView.swift */,
+				398DF44E29D0428A00E36B4F /* HomeTabView.swift */,
+			);
+			path = UsingTabViews;
+			sourceTree = "<group>";
+		};
+		398DF45029D0553000E36B4F /* PresentingAlerts */ = {
+			isa = PBXGroup;
+			children = (
+				398DF45129D055D000E36B4F /* PresentingAlerts.swift */,
+				398DF45329D056DE00E36B4F /* OldAlert.swift */,
+			);
+			path = PresentingAlerts;
+			sourceTree = "<group>";
+		};
+		398DF45529D05B3000E36B4F /* PresentingConfirmationDialogs */ = {
+			isa = PBXGroup;
+			children = (
+				398DF45629D05B3B00E36B4F /* PresentingConfirmationDialogs.swift */,
+			);
+			path = PresentingConfirmationDialogs;
+			sourceTree = "<group>";
+		};
+		398DF45829D05CE400E36B4F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				398DF45929D05CEE00E36B4F /* PresentingSheets.swift */,
+				398DF45B29D05F2900E36B4F /* SheetView.swift */,
+				398DF45D29D0613400E36B4F /* SheetWithNavView.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		39F1CEFB29CCA76600D68723 /* LazyStack */ = {
@@ -263,19 +325,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				3920FD6A29B7C51300A7B407 /* WeatherInfo.swift in Sources */,
+				398DF45729D05B3B00E36B4F /* PresentingConfirmationDialogs.swift in Sources */,
 				3920FD6529B7BF9100A7B407 /* StaticList.swift in Sources */,
 				3920FD6329B7B1AC00A7B407 /* WeScroll.swift in Sources */,
 				3920FD6C29B7C57A00A7B407 /* WeatherRow.swift in Sources */,
+				398DF44F29D0428A00E36B4F /* HomeTabView.swift in Sources */,
 				3927B944299F289F0031FDD5 /* ContentView.swift in Sources */,
+				398DF45429D056DE00E36B4F /* OldAlert.swift in Sources */,
 				3920FD7C29B8FD7800A7B407 /* EditableListsFields.swift in Sources */,
+				398DF45229D055D000E36B4F /* PresentingAlerts.swift in Sources */,
 				3927B952299F29580031FDD5 /* ActivityIndicator.swift in Sources */,
 				3920FD6F29B8F27200A7B407 /* ListRowAdd.swift in Sources */,
 				39F1CEFD29CCA78200D68723 /* SwiftUIView.swift in Sources */,
+				398DF45E29D0613400E36B4F /* SheetWithNavView.swift in Sources */,
+				398DF44729D03C6200E36B4F /* HomeView.swift in Sources */,
 				3920FD7229B8F58000A7B407 /* ListViewDelete.swift in Sources */,
+				398DF45A29D05CEE00E36B4F /* PresentingSheets.swift in Sources */,
+				398DF44D29D03E8B00E36B4F /* CurrencyView.swift in Sources */,
 				397CB96C29CDB52D000D796D /* LoginView.swift in Sources */,
+				398DF45C29D05F2900E36B4F /* SheetView.swift in Sources */,
 				39F1CF0029CCA9DD00D68723 /* LazyGrid.swift in Sources */,
 				3927B942299F289F0031FDD5 /* UIKitToSwiftUIApp.swift in Sources */,
 				39F1CF0329CCB09E00D68723 /* SignUpView.swift in Sources */,
+				398DF44B29D03DCB00E36B4F /* Currency.swift in Sources */,
 				3920FD7829B8FCB800A7B407 /* ListWithSections.swift in Sources */,
 				3920FD6729B7C49800A7B407 /* CustomRows.swift in Sources */,
 				3920FD7529B8F92300A7B407 /* ListRowEdit.swift in Sources */,

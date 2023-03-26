@@ -45,9 +45,10 @@ struct LoginView: View {
                     print("Form Submited!")
                 }
                 .frame(width: geometry.size.width, height: 50)
-                .background(Color.purple)
+                .background(disableButton() ? Color.gray : Color.purple)
                 .foregroundColor(Color.white)
                 .cornerRadius(6)
+                .disabled(disableButton())
             }
 
             Spacer()
@@ -66,6 +67,10 @@ struct LoginView: View {
             .frame(maxWidth: .infinity, alignment: .center)
         }
         .padding([.leading, .trailing], 10)
+    }
+
+    func disableButton() -> Bool {
+        return username.isEmpty || passsword.isEmpty
     }
 }
 
@@ -103,10 +108,10 @@ struct customViewModifier: ViewModifier {
             .background()
             .cornerRadius(6)
             .padding(3)
-            .foregroundColor(.white)
+            .foregroundColor(.black)
             .font(.custom("Open Sans", size: 18))
             .overlay(RoundedRectangle(cornerRadius: 6)
-                .stroke(Color.gray, lineWidth: 2.5))
+                .stroke(Color.gray, lineWidth: 0.5))
             .opacity(0.5)
     }
 }

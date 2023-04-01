@@ -22,6 +22,11 @@
 		3927B946299F28A10031FDD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3927B945299F28A10031FDD5 /* Assets.xcassets */; };
 		3927B949299F28A10031FDD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3927B948299F28A10031FDD5 /* Preview Assets.xcassets */; };
 		3927B952299F29580031FDD5 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3927B951299F29580031FDD5 /* ActivityIndicator.swift */; };
+		3941FD7829D83C12002CED4D /* BuiltInShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941FD7729D83C12002CED4D /* BuiltInShapes.swift */; };
+		3941FD7A29D83ED5002CED4D /* RhombusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941FD7929D83ED5002CED4D /* RhombusApp.swift */; };
+		3941FD7C29D84287002CED4D /* DrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941FD7B29D84287002CED4D /* DrawingApp.swift */; };
+		3941FD7F29D84AA1002CED4D /* ProgressRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941FD7E29D84AA1002CED4D /* ProgressRing.swift */; };
+		3941FD8229D852E0002CED4D /* CrossAndNought.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941FD8129D852E0002CED4D /* CrossAndNought.swift */; };
 		397CB96C29CDB52D000D796D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397CB96B29CDB52D000D796D /* LoginView.swift */; };
 		398DF44729D03C6200E36B4F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DF44629D03C6200E36B4F /* HomeView.swift */; };
 		398DF44B29D03DCB00E36B4F /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DF44A29D03DCB00E36B4F /* Currency.swift */; };
@@ -55,6 +60,11 @@
 		3927B945299F28A10031FDD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3927B948299F28A10031FDD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3927B951299F29580031FDD5 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		3941FD7729D83C12002CED4D /* BuiltInShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuiltInShapes.swift; sourceTree = "<group>"; };
+		3941FD7929D83ED5002CED4D /* RhombusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhombusApp.swift; sourceTree = "<group>"; };
+		3941FD7B29D84287002CED4D /* DrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingApp.swift; sourceTree = "<group>"; };
+		3941FD7E29D84AA1002CED4D /* ProgressRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRing.swift; sourceTree = "<group>"; };
+		3941FD8129D852E0002CED4D /* CrossAndNought.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossAndNought.swift; sourceTree = "<group>"; };
 		397CB96B29CDB52D000D796D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		398DF44629D03C6200E36B4F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		398DF44A29D03DCB00E36B4F /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
@@ -152,7 +162,10 @@
 		3927B940299F289F0031FDD5 /* UIKitToSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				398DF45829D05CE400E36B4F /* New Group */,
+				3941FD8029D85225002CED4D /* TicTacToe */,
+				3941FD7D29D84A8F002CED4D /* ProgressRings */,
+				3941FD7629D83C06002CED4D /* DrawingShapes */,
+				398DF45829D05CE400E36B4F /* SheetView */,
 				398DF45529D05B3000E36B4F /* PresentingConfirmationDialogs */,
 				398DF45029D0553000E36B4F /* PresentingAlerts */,
 				398DF44529D03C4B00E36B4F /* UsingTabViews */,
@@ -182,6 +195,32 @@
 				3927B948299F28A10031FDD5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3941FD7629D83C06002CED4D /* DrawingShapes */ = {
+			isa = PBXGroup;
+			children = (
+				3941FD7729D83C12002CED4D /* BuiltInShapes.swift */,
+				3941FD7929D83ED5002CED4D /* RhombusApp.swift */,
+				3941FD7B29D84287002CED4D /* DrawingApp.swift */,
+			);
+			path = DrawingShapes;
+			sourceTree = "<group>";
+		};
+		3941FD7D29D84A8F002CED4D /* ProgressRings */ = {
+			isa = PBXGroup;
+			children = (
+				3941FD7E29D84AA1002CED4D /* ProgressRing.swift */,
+			);
+			path = ProgressRings;
+			sourceTree = "<group>";
+		};
+		3941FD8029D85225002CED4D /* TicTacToe */ = {
+			isa = PBXGroup;
+			children = (
+				3941FD8129D852E0002CED4D /* CrossAndNought.swift */,
+			);
+			path = TicTacToe;
 			sourceTree = "<group>";
 		};
 		397CB96A29CDB514000D796D /* LoginView */ = {
@@ -220,14 +259,14 @@
 			path = PresentingConfirmationDialogs;
 			sourceTree = "<group>";
 		};
-		398DF45829D05CE400E36B4F /* New Group */ = {
+		398DF45829D05CE400E36B4F /* SheetView */ = {
 			isa = PBXGroup;
 			children = (
 				398DF45929D05CEE00E36B4F /* PresentingSheets.swift */,
 				398DF45B29D05F2900E36B4F /* SheetView.swift */,
 				398DF45D29D0613400E36B4F /* SheetWithNavView.swift */,
 			);
-			path = "New Group";
+			path = SheetView;
 			sourceTree = "<group>";
 		};
 		39F1CEFB29CCA76600D68723 /* LazyStack */ = {
@@ -332,7 +371,11 @@
 				398DF44F29D0428A00E36B4F /* HomeTabView.swift in Sources */,
 				3927B944299F289F0031FDD5 /* ContentView.swift in Sources */,
 				398DF45429D056DE00E36B4F /* OldAlert.swift in Sources */,
+				3941FD7C29D84287002CED4D /* DrawingApp.swift in Sources */,
 				3920FD7C29B8FD7800A7B407 /* EditableListsFields.swift in Sources */,
+				3941FD7829D83C12002CED4D /* BuiltInShapes.swift in Sources */,
+				3941FD8229D852E0002CED4D /* CrossAndNought.swift in Sources */,
+				3941FD7F29D84AA1002CED4D /* ProgressRing.swift in Sources */,
 				398DF45229D055D000E36B4F /* PresentingAlerts.swift in Sources */,
 				3927B952299F29580031FDD5 /* ActivityIndicator.swift in Sources */,
 				3920FD6F29B8F27200A7B407 /* ListRowAdd.swift in Sources */,
@@ -342,6 +385,7 @@
 				3920FD7229B8F58000A7B407 /* ListViewDelete.swift in Sources */,
 				398DF45A29D05CEE00E36B4F /* PresentingSheets.swift in Sources */,
 				398DF44D29D03E8B00E36B4F /* CurrencyView.swift in Sources */,
+				3941FD7A29D83ED5002CED4D /* RhombusApp.swift in Sources */,
 				397CB96C29CDB52D000D796D /* LoginView.swift in Sources */,
 				398DF45C29D05F2900E36B4F /* SheetView.swift in Sources */,
 				39F1CF0029CCA9DD00D68723 /* LazyGrid.swift in Sources */,

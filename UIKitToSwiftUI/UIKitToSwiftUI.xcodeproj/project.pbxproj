@@ -27,6 +27,8 @@
 		3941FD7C29D84287002CED4D /* DrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941FD7B29D84287002CED4D /* DrawingApp.swift */; };
 		3941FD7F29D84AA1002CED4D /* ProgressRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941FD7E29D84AA1002CED4D /* ProgressRing.swift */; };
 		3941FD8229D852E0002CED4D /* CrossAndNought.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941FD8129D852E0002CED4D /* CrossAndNought.swift */; };
+		3941FD8529D85956002CED4D /* LinearGradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941FD8429D85956002CED4D /* LinearGradients.swift */; };
+		3941FD8729D85971002CED4D /* extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941FD8629D85971002CED4D /* extenstion.swift */; };
 		397CB96C29CDB52D000D796D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397CB96B29CDB52D000D796D /* LoginView.swift */; };
 		398DF44729D03C6200E36B4F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DF44629D03C6200E36B4F /* HomeView.swift */; };
 		398DF44B29D03DCB00E36B4F /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DF44A29D03DCB00E36B4F /* Currency.swift */; };
@@ -38,6 +40,9 @@
 		398DF45A29D05CEE00E36B4F /* PresentingSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DF45929D05CEE00E36B4F /* PresentingSheets.swift */; };
 		398DF45C29D05F2900E36B4F /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DF45B29D05F2900E36B4F /* SheetView.swift */; };
 		398DF45E29D0613400E36B4F /* SheetWithNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DF45D29D0613400E36B4F /* SheetWithNavView.swift */; };
+		39BC497529D8A9120039926D /* RadialGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BC497429D8A9120039926D /* RadialGradientView.swift */; };
+		39BC497729D98DD20039926D /* AngularGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BC497629D98DD20039926D /* AngularGradientView.swift */; };
+		39BC497929D98EEF0039926D /* GradientTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BC497829D98EEF0039926D /* GradientTabView.swift */; };
 		39F1CEFD29CCA78200D68723 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F1CEFC29CCA78200D68723 /* SwiftUIView.swift */; };
 		39F1CF0029CCA9DD00D68723 /* LazyGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F1CEFF29CCA9DD00D68723 /* LazyGrid.swift */; };
 		39F1CF0329CCB09E00D68723 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F1CF0229CCB09E00D68723 /* SignUpView.swift */; };
@@ -65,6 +70,8 @@
 		3941FD7B29D84287002CED4D /* DrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingApp.swift; sourceTree = "<group>"; };
 		3941FD7E29D84AA1002CED4D /* ProgressRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRing.swift; sourceTree = "<group>"; };
 		3941FD8129D852E0002CED4D /* CrossAndNought.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossAndNought.swift; sourceTree = "<group>"; };
+		3941FD8429D85956002CED4D /* LinearGradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradients.swift; sourceTree = "<group>"; };
+		3941FD8629D85971002CED4D /* extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extenstion.swift; sourceTree = "<group>"; };
 		397CB96B29CDB52D000D796D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		398DF44629D03C6200E36B4F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		398DF44A29D03DCB00E36B4F /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
@@ -76,6 +83,9 @@
 		398DF45929D05CEE00E36B4F /* PresentingSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentingSheets.swift; sourceTree = "<group>"; };
 		398DF45B29D05F2900E36B4F /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 		398DF45D29D0613400E36B4F /* SheetWithNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetWithNavView.swift; sourceTree = "<group>"; };
+		39BC497429D8A9120039926D /* RadialGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradientView.swift; sourceTree = "<group>"; };
+		39BC497629D98DD20039926D /* AngularGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradientView.swift; sourceTree = "<group>"; };
+		39BC497829D98EEF0039926D /* GradientTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientTabView.swift; sourceTree = "<group>"; };
 		39F1CEFC29CCA78200D68723 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		39F1CEFF29CCA9DD00D68723 /* LazyGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGrid.swift; sourceTree = "<group>"; };
 		39F1CF0229CCB09E00D68723 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
@@ -162,6 +172,7 @@
 		3927B940299F289F0031FDD5 /* UIKitToSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				3941FD8329D85941002CED4D /* GradientViews */,
 				3941FD8029D85225002CED4D /* TicTacToe */,
 				3941FD7D29D84A8F002CED4D /* ProgressRings */,
 				3941FD7629D83C06002CED4D /* DrawingShapes */,
@@ -185,6 +196,7 @@
 				3927B947299F28A10031FDD5 /* Preview Content */,
 				3920FD6429B7BF9100A7B407 /* StaticList.swift */,
 				3920FD6829B7C4F600A7B407 /* custom_row */,
+				3941FD8629D85971002CED4D /* extenstion.swift */,
 			);
 			path = UIKitToSwiftUI;
 			sourceTree = "<group>";
@@ -221,6 +233,17 @@
 				3941FD8129D852E0002CED4D /* CrossAndNought.swift */,
 			);
 			path = TicTacToe;
+			sourceTree = "<group>";
+		};
+		3941FD8329D85941002CED4D /* GradientViews */ = {
+			isa = PBXGroup;
+			children = (
+				3941FD8429D85956002CED4D /* LinearGradients.swift */,
+				39BC497429D8A9120039926D /* RadialGradientView.swift */,
+				39BC497629D98DD20039926D /* AngularGradientView.swift */,
+				39BC497829D98EEF0039926D /* GradientTabView.swift */,
+			);
+			path = GradientViews;
 			sourceTree = "<group>";
 		};
 		397CB96A29CDB514000D796D /* LoginView */ = {
@@ -366,8 +389,10 @@
 				3920FD6A29B7C51300A7B407 /* WeatherInfo.swift in Sources */,
 				398DF45729D05B3B00E36B4F /* PresentingConfirmationDialogs.swift in Sources */,
 				3920FD6529B7BF9100A7B407 /* StaticList.swift in Sources */,
+				39BC497929D98EEF0039926D /* GradientTabView.swift in Sources */,
 				3920FD6329B7B1AC00A7B407 /* WeScroll.swift in Sources */,
 				3920FD6C29B7C57A00A7B407 /* WeatherRow.swift in Sources */,
+				3941FD8529D85956002CED4D /* LinearGradients.swift in Sources */,
 				398DF44F29D0428A00E36B4F /* HomeTabView.swift in Sources */,
 				3927B944299F289F0031FDD5 /* ContentView.swift in Sources */,
 				398DF45429D056DE00E36B4F /* OldAlert.swift in Sources */,
@@ -376,6 +401,7 @@
 				3941FD7829D83C12002CED4D /* BuiltInShapes.swift in Sources */,
 				3941FD8229D852E0002CED4D /* CrossAndNought.swift in Sources */,
 				3941FD7F29D84AA1002CED4D /* ProgressRing.swift in Sources */,
+				3941FD8729D85971002CED4D /* extenstion.swift in Sources */,
 				398DF45229D055D000E36B4F /* PresentingAlerts.swift in Sources */,
 				3927B952299F29580031FDD5 /* ActivityIndicator.swift in Sources */,
 				3920FD6F29B8F27200A7B407 /* ListRowAdd.swift in Sources */,
@@ -392,9 +418,11 @@
 				3927B942299F289F0031FDD5 /* UIKitToSwiftUIApp.swift in Sources */,
 				39F1CF0329CCB09E00D68723 /* SignUpView.swift in Sources */,
 				398DF44B29D03DCB00E36B4F /* Currency.swift in Sources */,
+				39BC497729D98DD20039926D /* AngularGradientView.swift in Sources */,
 				3920FD7829B8FCB800A7B407 /* ListWithSections.swift in Sources */,
 				3920FD6729B7C49800A7B407 /* CustomRows.swift in Sources */,
 				3920FD7529B8F92300A7B407 /* ListRowEdit.swift in Sources */,
+				39BC497529D8A9120039926D /* RadialGradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

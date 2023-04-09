@@ -30,6 +30,8 @@
 		3941FD8529D85956002CED4D /* LinearGradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941FD8429D85956002CED4D /* LinearGradients.swift */; };
 		3941FD8729D85971002CED4D /* extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3941FD8629D85971002CED4D /* extenstion.swift */; };
 		397CB96C29CDB52D000D796D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397CB96B29CDB52D000D796D /* LoginView.swift */; };
+		398BF8DA29E3240D0005E717 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BF8D929E3240D0005E717 /* TodoModel.swift */; };
+		398BF8DE29E324800005E717 /* TodoUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BF8DD29E324800005E717 /* TodoUIView.swift */; };
 		398DF44729D03C6200E36B4F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DF44629D03C6200E36B4F /* HomeView.swift */; };
 		398DF44B29D03DCB00E36B4F /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DF44A29D03DCB00E36B4F /* Currency.swift */; };
 		398DF44D29D03E8B00E36B4F /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DF44C29D03E8B00E36B4F /* CurrencyView.swift */; };
@@ -76,6 +78,8 @@
 		3941FD8429D85956002CED4D /* LinearGradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradients.swift; sourceTree = "<group>"; };
 		3941FD8629D85971002CED4D /* extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extenstion.swift; sourceTree = "<group>"; };
 		397CB96B29CDB52D000D796D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		398BF8D929E3240D0005E717 /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
+		398BF8DD29E324800005E717 /* TodoUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoUIView.swift; sourceTree = "<group>"; };
 		398DF44629D03C6200E36B4F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		398DF44A29D03DCB00E36B4F /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		398DF44C29D03E8B00E36B4F /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
@@ -178,6 +182,7 @@
 		3927B940299F289F0031FDD5 /* UIKitToSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				398BF8D829E323F90005E717 /* TodoApp */,
 				39BC497A29D9911B0039926D /* BarChart */,
 				3941FD8329D85941002CED4D /* GradientViews */,
 				3941FD8029D85225002CED4D /* TicTacToe */,
@@ -259,6 +264,15 @@
 				397CB96B29CDB52D000D796D /* LoginView.swift */,
 			);
 			path = LoginView;
+			sourceTree = "<group>";
+		};
+		398BF8D829E323F90005E717 /* TodoApp */ = {
+			isa = PBXGroup;
+			children = (
+				398BF8D929E3240D0005E717 /* TodoModel.swift */,
+				398BF8DD29E324800005E717 /* TodoUIView.swift */,
+			);
+			path = TodoApp;
 			sourceTree = "<group>";
 		};
 		398DF44529D03C4B00E36B4F /* UsingTabViews */ = {
@@ -409,6 +423,7 @@
 				39BC497929D98EEF0039926D /* GradientTabView.swift in Sources */,
 				3920FD6329B7B1AC00A7B407 /* WeScroll.swift in Sources */,
 				3920FD6C29B7C57A00A7B407 /* WeatherRow.swift in Sources */,
+				398BF8DE29E324800005E717 /* TodoUIView.swift in Sources */,
 				3941FD8529D85956002CED4D /* LinearGradients.swift in Sources */,
 				39BC498029D9971D0039926D /* BarChartView.swift in Sources */,
 				398DF44F29D0428A00E36B4F /* HomeTabView.swift in Sources */,
@@ -429,6 +444,7 @@
 				398DF45E29D0613400E36B4F /* SheetWithNavView.swift in Sources */,
 				398DF44729D03C6200E36B4F /* HomeView.swift in Sources */,
 				3920FD7229B8F58000A7B407 /* ListViewDelete.swift in Sources */,
+				398BF8DA29E3240D0005E717 /* TodoModel.swift in Sources */,
 				398DF45A29D05CEE00E36B4F /* PresentingSheets.swift in Sources */,
 				398DF44D29D03E8B00E36B4F /* CurrencyView.swift in Sources */,
 				3941FD7A29D83ED5002CED4D /* RhombusApp.swift in Sources */,
